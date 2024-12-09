@@ -6,26 +6,28 @@ html.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebAI</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">WebAI</div>
+            <div class="logo">
+                <img src="logo.png" alt="Logo" width="100px" >
+            </div>
             <ul class="nav-links">
-                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#hakkimizda">Hakkımızda </a></li>
                 <li><a href="#paketler">Paketler</a></li>
             </ul>
             <div class="social-icons">
-                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-                <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/webal.org.tr/"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://wa.me/905525852580"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
                 <a href="#"><img src="search-icon.png" alt="Search"></a>
             </div>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>WebAI</h1>
+        <h1>WebAl</h1>
         <p>Websites sahibi olmak artık daha kolay</p>
     </section>
 
@@ -35,7 +37,7 @@ html.
             İzmir merkezli olarak faaliyet gösteren Web tasarım sitemiz, genç girişimcilerin projeleriyle kurulmuştur. 
             Ekibimiz, Web tasarım ve geliştirme konusundaki bilgi ve donanımını İzmir iş dünyası ile paylaşmaktan gurur duyar.
         </p>
-        <img src="about-us-image.png" alt="About Us">
+        <img src="about-us-image.jpg" alt="About Us">
     </section>
 
     <section id="neden-biz">
@@ -127,8 +129,8 @@ body {
 }
 
 header {
-    background-color: #111;
-    padding: 10px 20px;
+    background-color: #000000;
+    padding: 0px 20px;
 }
 
 nav {
@@ -154,10 +156,17 @@ nav {
 }
 
 .social-icons a img {
-    width: 24px;
     height: 24px;
     margin-left: 10px;
 }
+@keyframes animation {
+    from {
+      bottom: -60px
+    }
+    to {
+      bottom: 20px)
+    }
+  }
 
 .hero {
     text-align: center;
@@ -166,9 +175,15 @@ nav {
 }
 
 .hero h1 {
+    bottom: 20px;
+    animation: 2s animation;
     font-size: 3em;
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 .hero p {
     font-size: 1.2em;
@@ -180,15 +195,32 @@ section {
 }
 
 #hakkimizda {
-    background-color: #222;
+    background-color: #000000;
 }
 
+#hakkimizda h2 {
+color: #5EAFCC;
+}
 #neden-biz {
-    background-color: #333;
+    background-color: #000000;
+}
+
+#neden-biz h2{
+    color: #703CD6;
+    text-align: left;
+}
+
+#neden-biz p{
+    text-align: left;
+    float: left;
+}
+
+#neden-biz img{
+    width: 12cm;
 }
 
 #paketler {
-    background-color: #444;
+    background-color: #000000;
 }
 
 .packages {
@@ -206,7 +238,7 @@ section {
 }
 
 .package h3 {
-    color: #f0f;
+    color: #4a00e0;
 }
 
 .package p {
@@ -234,7 +266,7 @@ section {
 }
 
 #iletisim {
-    background-color: #111;
+    background-color: #000000;
 }
 
 form {
@@ -272,5 +304,6 @@ button {
 button:hover {
     background-color: #4500b5;
 }
+
 
 
