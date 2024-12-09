@@ -34,8 +34,10 @@ html.
     <section id="hakkimizda">
         <h2>Hakkımızda</h2>
         <p>
-            İzmir merkezli olarak faaliyet gösteren Web tasarım sitemiz, genç girişimcilerin projeleriyle kurulmuştur. 
-            Ekibimiz, Web tasarım ve geliştirme konusundaki bilgi ve donanımını İzmir iş dünyası ile paylaşmaktan gurur duyar.
+            İzmir merkezli olarak faaliyet <br />gösteren Web tasarım sitemiz,
+                    genç <br />girişimcilerin projesiyle kurulmuştur. <br />Ekibimiz,
+                    web tasarım ve geliştirme <br />konusundaki   bilgi ve donanımını
+                    <br />İzmir iş dünyası ile paylaşmaktan <br />gurur duyar.
         </p>
         <img src="about-us-image.jpg" alt="About Us">
     </section>
@@ -43,9 +45,11 @@ html.
     <section id="neden-biz">
         <h2>Neden Biz?</h2>
         <p>
-            Projelerinizi belirlenen zaman çerçevesinde tamamlar ve hızlı bir şekilde teslim ederiz. 
-            Müşteri memnuniyetini en önde tutarak, güvenilir bir işbirliği sunarız. Web sitenizin yayına alınmasından 
-            ardından da sizinle birlikteyiz.
+            Projelerimizi belirlenen zaman <br />çerçevesinde tamamlar ve
+                    hızlı bir <br />şekilde teslim ederiz. Müşteri <br />memnuniyetini
+                    ön planda tutarak, <br />güvenilir bir işbirliği sunarız. Web
+                    <br />sitenizin yayına alınmasının <br />ardından da sizinle
+                    birlikteyiz.
         </p>
         <img src="why-us-image.png" alt="Why Us">
     </section>
