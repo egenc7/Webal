@@ -1,0 +1,276 @@
+html. 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">WebAI</div>
+            <ul class="nav-links">
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#paketler">Paketler</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="#"><img src="search-icon.png" alt="Search"></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>WebAI</h1>
+        <p>Websites sahibi olmak artık daha kolay</p>
+    </section>
+
+    <section id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <p>
+            İzmir merkezli olarak faaliyet gösteren Web tasarım sitemiz, genç girişimcilerin projeleriyle kurulmuştur. 
+            Ekibimiz, Web tasarım ve geliştirme konusundaki bilgi ve donanımını İzmir iş dünyası ile paylaşmaktan gurur duyar.
+        </p>
+        <img src="about-us-image.png" alt="About Us">
+    </section>
+
+    <section id="neden-biz">
+        <h2>Neden Biz?</h2>
+        <p>
+            Projelerinizi belirlenen zaman çerçevesinde tamamlar ve hızlı bir şekilde teslim ederiz. 
+            Müşteri memnuniyetini en önde tutarak, güvenilir bir işbirliği sunarız. Web sitenizin yayına alınmasından 
+            ardından da sizinle birlikteyiz.
+        </p>
+        <img src="why-us-image.png" alt="Why Us">
+    </section>
+
+    <section id="paketler">
+        <h2>Paketler</h2>
+        <div class="packages">
+            <div class="package">
+                <h3>Beginner</h3>
+                <p>1500 ₺</p>
+                <ul>
+                    <li>1 Website</li>
+                    <li>SSL</li>
+                    <li>Domain</li>
+                    <li>Hosting</li>
+                    <li>Site HTML</li>
+                    <li>Website 24 saat içinde aktif</li>
+                </ul>
+                <a href="#" class="btn">Sipariş Ver</a>
+            </div>
+            <div class="package">
+                <h3>Premium</h3>
+                <p>5000 ₺</p>
+                <ul>
+                    <li>5 Website</li>
+                    <li>SSL</li>
+                    <li>Domain</li>
+                    <li>Hosting</li>
+                    <li>Site HTML</li>
+                    <li>Website 24 saat içinde aktif</li>
+                </ul>
+                <a href="#" class="btn">Sipariş Ver</a>
+            </div>
+            <div class="package">
+                <h3>Pro</h3>
+                <p>8000 ₺</p>
+                <ul>
+                    <li>E-commerce website</li>
+                    <li>5 Website</li>
+                    <li>SSL</li>
+                    <li>Domain</li>
+                    <li>Hosting</li>
+                    <li>Site HTML</li>
+                    <li>Website 24 saat içinde aktif</li>
+                </ul>
+                <a href="#" class="btn">Sipariş Ver</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+</body>
+</html>
+
+
+css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #111;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hakkimizda {
+    background-color: #222;
+}
+
+#neden-biz {
+    background-color: #333;
+}
+
+#paketler {
+    background-color: #444;
+}
+
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.package {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.package h3 {
+    color: #f0f;
+}
+
+.package p {
+    font-size: 1.5em;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+}
+
+.package ul li {
+    margin: 10px 0;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#iletisim {
+    background-color: #111;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4500b5;
+}
+
+
